@@ -1,1 +1,2 @@
 # API_Capstone
+Blogging Platform API using Django and Django REST Framework. This API will allow users to manage blog posts by creating, updating, deleting, and viewing posts. You will be responsible for building a fully functional API that interacts with a database to store blog posts and user information, simulating the real-world development of a blogging platform. You will also be tasked with implementing features like categorization and author-based filtering to enhance the blogging experience.
