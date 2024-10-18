@@ -37,7 +37,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blogapp',
+    'rest_framework',  
+    'rest_framework.authtoken',
 ]
+
+AUTH_USER_MODEL = 'auth.User'
+
+REST_FRAMEWORK = {
+       'DEFAULT_AUTHENTICATION_CLASSES': [  
+    'rest_framework.authentication.TokenAuthentication',  
+  ],         
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
